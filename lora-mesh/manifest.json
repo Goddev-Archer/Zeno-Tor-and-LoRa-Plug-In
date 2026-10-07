@@ -1,0 +1,15 @@
+{
+  "id": "lora-mesh",
+  "name": "LoRa Off-Grid Funk-Mesh",
+  "version": "1.0.0",
+  "minAppVersion": "0.1.0",
+  "description": "Treiberfreie serielle Funk-Anbindung an günstige USB-/Bluetooth-LoRa-Dongles (868/433 MHz). Text-Nachrichten komplett ohne Internet über Kilometer hinweg.",
+  "author": "Zeno Sovereign Security",
+  "authorUrl": "https://github.com/zeno-messenger",
+  "repo": "zeno-messenger/Zeno-Tor-and-LoRa-Plug-In",
+  "license": "GPL-3.0",
+  "category": "mesh",
+  "icon": "mage:radio",
+  "logoUrl": "logo.svg",
+  "permissions": ["network", "ui", "storage", "notifications"]
+}

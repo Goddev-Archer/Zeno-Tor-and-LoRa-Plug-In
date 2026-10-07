@@ -1,0 +1,15 @@
+{
+  "id": "tor-snowflake",
+  "name": "Tor & Snowflake Zensurschutz",
+  "version": "1.0.0",
+  "minAppVersion": "0.1.0",
+  "description": "Tunnelt den gesamten Zeno-Datenverkehr über rotierende Snowflake-WebRTC-Proxies oder lokale Tor-Onion-Relays zur Umgehung von Deep-Packet-Inspection (DPI).",
+  "author": "Zeno Sovereign Security",
+  "authorUrl": "https://github.com/zeno-messenger",
+  "repo": "zeno-messenger/Zeno-Tor-and-LoRa-Plug-In",
+  "license": "GPL-3.0",
+  "category": "transport",
+  "icon": "mage:shield-check",
+  "logoUrl": "logo.svg",
+  "permissions": ["network", "ui", "storage", "notifications"]
+}

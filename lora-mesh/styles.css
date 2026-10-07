@@ -1,0 +1,55 @@
+/* LoRa Mesh Tactical Orange Styling */
+.zeno-lora-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  user-select: none;
+  transition: all 0.2s ease;
+}
+
+.zeno-lora-chip.active {
+  background: rgba(245, 158, 11, 0.15);
+  border: 1px solid rgba(245, 158, 11, 0.4);
+  color: #F59E0B;
+}
+
+.zeno-lora-chip.active .lora-signal-bar {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #F59E0B;
+  box-shadow: 0 0 8px #F59E0B;
+  animation: loraSignalPulse 1.8s infinite;
+}
+
+.zeno-lora-chip.idle {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: var(--text-muted);
+}
+
+.zeno-lora-chip.idle .lora-signal-bar {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #6B7280;
+}
+
+.lora-rssi-badge {
+  background: rgba(0, 0, 0, 0.3);
+  padding: 1px 4px;
+  border-radius: 4px;
+  font-size: 9px;
+  font-family: monospace;
+}
+
+@keyframes loraSignalPulse {
+  0% { transform: scale(0.9); opacity: 0.7; }
+  50% { transform: scale(1.2); opacity: 1; }
+  100% { transform: scale(0.9); opacity: 0.7; }
+}
